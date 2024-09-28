@@ -1,0 +1,10 @@
+Header del File (.agif)
+-----------------------
+- Signature: "AGIF" (4 byte) [Stringa di identificazione del formato]
+- Versione: 1 (1 byte) [Versione del formato]
+- Durata GIF (t_gif): 1000 (4 byte) [Durata totale della GIF in millisecondi]
+- Durata Audio (t_mp3): 2000 (4 byte) [Durata totale dell’audio in millisecondi]
+- Offset Dati GIF: 128 (4 byte) [Posizione nel file del blocco GIF]
+- Offset Dati Audio: 1024 (4 byte) [Posizione nel file del blocco audio]
+- Opzioni: 0x01 (1 byte) [Flag per opzioni varie come loop infinito]
+...
